@@ -21,7 +21,7 @@ const MovieCard = props => {
         {star}
         </div>
     ))}
-    <div onClick =  {props.fnc} className="save-button">Save</div>
+    <div onClick = {props.addToSavedList} className="save-button">Save</div>
         </div>
       </div>
     );
